@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDCEDDF81F46BA10004BEF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEDDF71F46BA10004BEF8C /* AppDelegate.swift */; };
+		BDCEDDFA1F46BA10004BEF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEDDF91F46BA10004BEF8C /* ViewController.swift */; };
+		BDCEDDFD1F46BA10004BEF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCEDDFB1F46BA10004BEF8C /* Main.storyboard */; };
+		BDCEDDFF1F46BA10004BEF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCEDDFE1F46BA10004BEF8C /* Assets.xcassets */; };
+		BDCEDE021F46BA10004BEF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCEDE001F46BA10004BEF8C /* LaunchScreen.storyboard */; };
+		BDCEDE0D1F46BA10004BEF8C /* StretchyTableViewHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEDE0C1F46BA10004BEF8C /* StretchyTableViewHeaderTests.swift */; };
+		BDCEDE181F46BA10004BEF8C /* StretchyTableViewHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCEDE171F46BA10004BEF8C /* StretchyTableViewHeaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDCEDE091F46BA10004BEF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCEDDEC1F46BA10004BEF8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCEDDF31F46BA10004BEF8C;
+			remoteInfo = StretchyTableViewHeader;
+		};
+		BDCEDE141F46BA10004BEF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCEDDEC1F46BA10004BEF8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCEDDF31F46BA10004BEF8C;
+			remoteInfo = StretchyTableViewHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDCEDDF41F46BA10004BEF8C /* StretchyTableViewHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchyTableViewHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEDDF71F46BA10004BEF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDCEDDF91F46BA10004BEF8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDCEDDFC1F46BA10004BEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDCEDDFE1F46BA10004BEF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDCEDE011F46BA10004BEF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDCEDE031F46BA10004BEF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCEDE081F46BA10004BEF8C /* StretchyTableViewHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyTableViewHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEDE0C1F46BA10004BEF8C /* StretchyTableViewHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTableViewHeaderTests.swift; sourceTree = "<group>"; };
+		BDCEDE0E1F46BA10004BEF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCEDE131F46BA10004BEF8C /* StretchyTableViewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyTableViewHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEDE171F46BA10004BEF8C /* StretchyTableViewHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTableViewHeaderUITests.swift; sourceTree = "<group>"; };
+		BDCEDE191F46BA10004BEF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDCEDDF11F46BA10004BEF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEDE051F46BA10004BEF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEDE101F46BA10004BEF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDCEDDEB1F46BA10004BEF8C = {
+			isa = PBXGroup;
+			children = (
+				BDCEDDF61F46BA10004BEF8C /* StretchyTableViewHeader */,
+				BDCEDE0B1F46BA10004BEF8C /* StretchyTableViewHeaderTests */,
+				BDCEDE161F46BA10004BEF8C /* StretchyTableViewHeaderUITests */,
+				BDCEDDF51F46BA10004BEF8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDCEDDF51F46BA10004BEF8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEDDF41F46BA10004BEF8C /* StretchyTableViewHeader.app */,
+				BDCEDE081F46BA10004BEF8C /* StretchyTableViewHeaderTests.xctest */,
+				BDCEDE131F46BA10004BEF8C /* StretchyTableViewHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCEDDF61F46BA10004BEF8C /* StretchyTableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEDDF71F46BA10004BEF8C /* AppDelegate.swift */,
+				BDCEDDF91F46BA10004BEF8C /* ViewController.swift */,
+				BDCEDDFB1F46BA10004BEF8C /* Main.storyboard */,
+				BDCEDDFE1F46BA10004BEF8C /* Assets.xcassets */,
+				BDCEDE001F46BA10004BEF8C /* LaunchScreen.storyboard */,
+				BDCEDE031F46BA10004BEF8C /* Info.plist */,
+			);
+			path = StretchyTableViewHeader;
+			sourceTree = "<group>";
+		};
+		BDCEDE0B1F46BA10004BEF8C /* StretchyTableViewHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEDE0C1F46BA10004BEF8C /* StretchyTableViewHeaderTests.swift */,
+				BDCEDE0E1F46BA10004BEF8C /* Info.plist */,
+			);
+			path = StretchyTableViewHeaderTests;
+			sourceTree = "<group>";
+		};
+		BDCEDE161F46BA10004BEF8C /* StretchyTableViewHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEDE171F46BA10004BEF8C /* StretchyTableViewHeaderUITests.swift */,
+				BDCEDE191F46BA10004BEF8C /* Info.plist */,
+			);
+			path = StretchyTableViewHeaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDCEDDF31F46BA10004BEF8C /* StretchyTableViewHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEDE1C1F46BA10004BEF8C /* Build configuration list for PBXNativeTarget "StretchyTableViewHeader" */;
+			buildPhases = (
+				BDCEDDF01F46BA10004BEF8C /* Sources */,
+				BDCEDDF11F46BA10004BEF8C /* Frameworks */,
+				BDCEDDF21F46BA10004BEF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchyTableViewHeader;
+			productName = StretchyTableViewHeader;
+			productReference = BDCEDDF41F46BA10004BEF8C /* StretchyTableViewHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDCEDE071F46BA10004BEF8C /* StretchyTableViewHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEDE1F1F46BA10004BEF8C /* Build configuration list for PBXNativeTarget "StretchyTableViewHeaderTests" */;
+			buildPhases = (
+				BDCEDE041F46BA10004BEF8C /* Sources */,
+				BDCEDE051F46BA10004BEF8C /* Frameworks */,
+				BDCEDE061F46BA10004BEF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCEDE0A1F46BA10004BEF8C /* PBXTargetDependency */,
+			);
+			name = StretchyTableViewHeaderTests;
+			productName = StretchyTableViewHeaderTests;
+			productReference = BDCEDE081F46BA10004BEF8C /* StretchyTableViewHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDCEDE121F46BA10004BEF8C /* StretchyTableViewHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEDE221F46BA10004BEF8C /* Build configuration list for PBXNativeTarget "StretchyTableViewHeaderUITests" */;
+			buildPhases = (
+				BDCEDE0F1F46BA10004BEF8C /* Sources */,
+				BDCEDE101F46BA10004BEF8C /* Frameworks */,
+				BDCEDE111F46BA10004BEF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCEDE151F46BA10004BEF8C /* PBXTargetDependency */,
+			);
+			name = StretchyTableViewHeaderUITests;
+			productName = StretchyTableViewHeaderUITests;
+			productReference = BDCEDE131F46BA10004BEF8C /* StretchyTableViewHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDCEDDEC1F46BA10004BEF8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = naoya.watanabe;
+				TargetAttributes = {
+					BDCEDDF31F46BA10004BEF8C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F7Y9VT6CEN;
+						ProvisioningStyle = Automatic;
+					};
+					BDCEDE071F46BA10004BEF8C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F7Y9VT6CEN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDCEDDF31F46BA10004BEF8C;
+					};
+					BDCEDE121F46BA10004BEF8C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F7Y9VT6CEN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDCEDDF31F46BA10004BEF8C;
+					};
+				};
+			};
+			buildConfigurationList = BDCEDDEF1F46BA10004BEF8C /* Build configuration list for PBXProject "StretchyTableViewHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDCEDDEB1F46BA10004BEF8C;
+			productRefGroup = BDCEDDF51F46BA10004BEF8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDCEDDF31F46BA10004BEF8C /* StretchyTableViewHeader */,
+				BDCEDE071F46BA10004BEF8C /* StretchyTableViewHeaderTests */,
+				BDCEDE121F46BA10004BEF8C /* StretchyTableViewHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDCEDDF21F46BA10004BEF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEDE021F46BA10004BEF8C /* LaunchScreen.storyboard in Resources */,
+				BDCEDDFF1F46BA10004BEF8C /* Assets.xcassets in Resources */,
+				BDCEDDFD1F46BA10004BEF8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEDE061F46BA10004BEF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEDE111F46BA10004BEF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDCEDDF01F46BA10004BEF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEDDFA1F46BA10004BEF8C /* ViewController.swift in Sources */,
+				BDCEDDF81F46BA10004BEF8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEDE041F46BA10004BEF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEDE0D1F46BA10004BEF8C /* StretchyTableViewHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEDE0F1F46BA10004BEF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEDE181F46BA10004BEF8C /* StretchyTableViewHeaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDCEDE0A1F46BA10004BEF8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCEDDF31F46BA10004BEF8C /* StretchyTableViewHeader */;
+			targetProxy = BDCEDE091F46BA10004BEF8C /* PBXContainerItemProxy */;
+		};
+		BDCEDE151F46BA10004BEF8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCEDDF31F46BA10004BEF8C /* StretchyTableViewHeader */;
+			targetProxy = BDCEDE141F46BA10004BEF8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDCEDDFB1F46BA10004BEF8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCEDDFC1F46BA10004BEF8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDCEDE001F46BA10004BEF8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCEDE011F46BA10004BEF8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDCEDE1A1F46BA10004BEF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDCEDE1B1F46BA10004BEF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDCEDE1D1F46BA10004BEF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7Y9VT6CEN;
+				INFOPLIST_FILE = StretchyTableViewHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoya.watanabe.StretchyTableViewHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDCEDE1E1F46BA10004BEF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7Y9VT6CEN;
+				INFOPLIST_FILE = StretchyTableViewHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoya.watanabe.StretchyTableViewHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BDCEDE201F46BA10004BEF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F7Y9VT6CEN;
+				INFOPLIST_FILE = StretchyTableViewHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoya.watanabe.StretchyTableViewHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchyTableViewHeader.app/StretchyTableViewHeader";
+			};
+			name = Debug;
+		};
+		BDCEDE211F46BA10004BEF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F7Y9VT6CEN;
+				INFOPLIST_FILE = StretchyTableViewHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoya.watanabe.StretchyTableViewHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchyTableViewHeader.app/StretchyTableViewHeader";
+			};
+			name = Release;
+		};
+		BDCEDE231F46BA10004BEF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F7Y9VT6CEN;
+				INFOPLIST_FILE = StretchyTableViewHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoya.watanabe.StretchyTableViewHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StretchyTableViewHeader;
+			};
+			name = Debug;
+		};
+		BDCEDE241F46BA10004BEF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F7Y9VT6CEN;
+				INFOPLIST_FILE = StretchyTableViewHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoya.watanabe.StretchyTableViewHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StretchyTableViewHeader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDCEDDEF1F46BA10004BEF8C /* Build configuration list for PBXProject "StretchyTableViewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEDE1A1F46BA10004BEF8C /* Debug */,
+				BDCEDE1B1F46BA10004BEF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCEDE1C1F46BA10004BEF8C /* Build configuration list for PBXNativeTarget "StretchyTableViewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEDE1D1F46BA10004BEF8C /* Debug */,
+				BDCEDE1E1F46BA10004BEF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDCEDE1F1F46BA10004BEF8C /* Build configuration list for PBXNativeTarget "StretchyTableViewHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEDE201F46BA10004BEF8C /* Debug */,
+				BDCEDE211F46BA10004BEF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDCEDE221F46BA10004BEF8C /* Build configuration list for PBXNativeTarget "StretchyTableViewHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEDE231F46BA10004BEF8C /* Debug */,
+				BDCEDE241F46BA10004BEF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDCEDDEC1F46BA10004BEF8C /* Project object */;
+}
